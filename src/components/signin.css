@@ -1,0 +1,13 @@
+.sign__container {
+  max-width: 600px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13%;
+}
+
+.login {
+  background-color: #f8f9fa;
+
+  margin-top: -15px;
+}

@@ -1,0 +1,36 @@
+.price__container {
+  display: flex;
+  background-color: black;
+}
+
+.price__text > h3 {
+  color: white;
+}
+.price__text > p {
+  color: white;
+}
+.small > small {
+  color: white;
+  align-self: center;
+  margin-left: 10px;
+}
+.small {
+  margin-top: 20px;
+  display: flex;
+}
+
+.price__text {
+  padding: 20px;
+  margin: 70px;
+  flex: 0.5;
+}
+.price__image {
+  margin: 50px;
+  flex: 0.5;
+}
+
+.price__list {
+  border-radius: 20px;
+  height: 320px;
+  width: 105%;
+}

@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  margin: 100px;
+  background-color: white;
+}
+.home__text {
+  flex: 0.45;
+  padding: 20px;
+  margin: 10px;
+}
+
+.home__text > button {
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+}
+.home__chargingpoint {
+  margin-top: 25px;
+  background-color: black !important;
+  color: white !important;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(197, 46, 46, 0.4) !important;
+}
+
+.home__image {
+  flex: 0.55;
+  width: 100%;
+  /* height: fit-content; */
+}
+.home__image > img {
+  height: 360px;
+  width: 100%;
+}

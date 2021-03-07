@@ -1,0 +1,27 @@
+.nav-container {
+  /* width: 100%; */
+  /* background-color: antiquewhite; */
+  background-color: #c5aa6a;
+}
+.nav-container > ul {
+  display: flex;
+  list-style-type: none;
+}
+.lists {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation__logo {
+  width: 100px;
+  padding-right: 20px;
+}
+
+.list {
+  text-decoration: none;
+  color: white;
+}
+.list:hover {
+  color: gray;
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+.popups > ul > li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.dashboard__getdirection {
+  color: white;
+  /* background: burlywood; */
+  background: rgb(63, 81, 181);
+  padding: 7%;
+  border: none;
+  border-radius: 4px;
+}
+
+.dashboard__getdirection:hover {
+  background: black;
+  color: white;
+  transition: all 0.4s;
+}
+
+.leaflet-popup-content {
+  /* background: blueviolet; */
+}
+
+.leaflet-popup-content-wrapper {
+  background: burlywood;
+  color: white;
+}
+.leaflet-popup-tip {
+  /* background: black; */
+  background: burlywood;
+  color: white;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: white;
+}

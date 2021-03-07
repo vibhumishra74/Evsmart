@@ -1,0 +1,19 @@
+.station__container {
+  max-width: 600px;
+  padding-top: 4%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.station {
+  background-color: #f8f9fa;
+  margin-top: -15px;
+}
+.station__location {
+  margin-top: 15;
+}
+.station__setlocation :hover {
+  text-decoration: none !important;
+  color: white;
+}

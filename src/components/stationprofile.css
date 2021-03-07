@@ -1,0 +1,21 @@
+.station__profiles {
+  max-width: 600px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+}
+
+.station__profile {
+  background-color: #f8f9fa;
+
+  margin-top: -15px;
+}
+
+.station__location {
+  margin-top: 15;
+}
+.station__setlocation :hover {
+  text-decoration: none !important;
+  color: white;
+}

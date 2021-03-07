@@ -1,0 +1,13 @@
+.start__component > button {
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+}
+
+.start__component {
+  text-align: center;
+}
+
+.start__component {
+  margin: 110px 250px;
+}

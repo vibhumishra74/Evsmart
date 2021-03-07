@@ -1,0 +1,24 @@
+.More{
+    margin-top:0px; 
+     border-radius: 9px;
+     width:40px;
+     margin-left:-50px;
+ 
+ }
+ .main title{
+     font-weight:20px;
+ }
+ 
+ .sub{
+     font-size:larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .sub:hover{
+     border:2px solid black;
+ }
+
+ 
+
+
+
+ 

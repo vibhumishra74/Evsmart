@@ -1,0 +1,67 @@
+/* .contactus__background {
+  background-image: url(/images/ev.jpg) no-repeat center center fixed;
+} */
+
+.contactus__background {
+  max-width: 600px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13%;
+}
+
+.contactus {
+  background-color: #adb3b9;
+  /* background-color: #f8f9fa;; */
+  margin-top: -16px;
+}
+
+.contact__button {
+  margin-top: 26px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: cornsilk; */
+  background: transparent;
+}
+
+.contact__button {
+  padding: 0;
+  list-style-type: none;
+}
+
+.contact__button .submit__text {
+  box-sizing: border-box;
+  text-align: center !important;
+  width: 15em;
+  height: 3em;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  line-height: 3em;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contact__button .submit__text:nth-child(odd) {
+  /* background: linear-gradient(to right, orange, tomato); */
+  /* background: linear-gradient(to right, antiquewhite, #dee2e6); */
+  background: #e2860e;
+  text-align: center;
+  padding-left: 10%;
+  transform: perspective(500px) rotateY(-45deg);
+}
+
+.contact__button .submit__text:nth-child(odd):hover {
+  transform: perspective(200px) rotateY(-45deg);
+  padding-left: 5%;
+}

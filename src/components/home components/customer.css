@@ -1,0 +1,16 @@
+.customer__text {
+  text-align: center;
+  font-weight: 800;
+}
+
+.customer__container {
+  padding: 40px;
+  background-color: rgba(255, 228, 196, 0.4);
+}
+
+.customer__avatar {
+  margin: 40px 90px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: stretch;
+}

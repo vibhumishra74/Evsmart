@@ -1,0 +1,18 @@
+.profiles {
+  max-width: 600px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+.profile__editbutton {
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+}
+
+.profile {
+  background-color: #f8f9fa;
+
+  margin-top: -15px;
+}
