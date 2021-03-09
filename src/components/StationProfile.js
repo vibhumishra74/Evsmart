@@ -160,6 +160,8 @@ class StationProfile extends Component {
                 <label>Working Hours</label>
 
                 <div>
+                  From:
+
                   <TextField
                     id="time"
                     ampm={false}
@@ -174,6 +176,9 @@ class StationProfile extends Component {
                     onChange={this.handleChange("open")}
                     value={this.state.open}
                   />
+
+                  To: 
+                  
                   <TextField
                     id="time"
                     ampm={false}

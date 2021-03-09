@@ -55,7 +55,7 @@ class Map extends Component {
           ) : (
             <Marker position={[latitude, longitude]}>
               <Popup>
-                {this.state.lat}, {this.state.lng}
+               You are here
               </Popup>
             </Marker>
           )}

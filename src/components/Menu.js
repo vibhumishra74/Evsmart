@@ -11,7 +11,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Profile from "@material-ui/icons/PersonOutline";
 import Help from "@material-ui/icons/HelpOutline";
 import EvStationIcon from "@material-ui/icons/EvStation";
-import AddLocationIcon from '@material-ui/icons/AddLocation';
+import AddLocationIcon from "@material-ui/icons/AddLocation";
 import MenuOpenIcon from "@material-ui/icons/MenuOpen";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 
@@ -67,9 +67,9 @@ export default function CustomizedMenus() {
         onClick={handleClick}
       >
         <ListItemIcon>
-          <MenuOpenIcon fontSize="small" style={{ color: "white" }} />
+          <MenuOpenIcon style={{ fontSize: 1 }} style={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary="Open Menu" />
+        <ListItemText primary="Menu" />
       </Button>
       <StyledMenu
         id="customized-menu"
